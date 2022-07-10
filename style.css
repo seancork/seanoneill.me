@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 10px auto;
+  position: relative;
+  text-align:center;
+  max-width: 46rem;
+}
+
+.terminal_window {
+  margin: 0 auto;
+  height: auto;
+  text-align: left;
+  margin-top: 15px;
+  postion: relative;
+  border-radius: 10px;
+  width: 100%;
+  overflow: auto;
+}
+
+.terminal_window header {
+  background-color: #AAAAAA ;
+  height: 30px;
+  border-radius: 8px 8px 0 0;
+  padding-left: 10px;
+}
+
+.terminal_window .button {
+  width: 12px;
+  height: 12px;
+  margin: 10px 4px 0 0;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.red_btn {
+  background-color: #E75448;
+}
+
+.yellow_btn {
+  background-color: #E5C30F;
+}
+
+.green_btn {
+  background-color: #3BB662;
+}
+
+.terminal_window {
+   background-color: #667292;
+  font-size: 11pt;
+}
+
+.terminal_text {
+  margin-left: 20px;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+}
+
+#typed-strings {
+  display: inline-block;
+  postiion: relative;
+}
+
+#typed {
+  font-family: "Consolas", "Courier New", "Courier";
+  margin-left: 15px;
+}
+
+.input_entered{ 
+  font-size:16px; 
+  color:white; 
+  font-weight:bold; 
+  font-style:italic;
+}
+
+.output_entered{ 
+  font-size:16px; 
+  color:#daebe8;
+  font-weight:bold; 
+  font-style:italic;
+}
+
+.link {
+ color: #d9ad7c;
+}
+
+div #blink {
+  margin-left: 15px;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
